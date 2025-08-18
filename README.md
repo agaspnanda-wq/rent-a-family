@@ -1,11 +1,10 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edukasi: Tekanan Sosial & Solusi Rent A Family</title>
-    <!-- Tailwind CSS CDN untuk styling modern dan responsif -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Google Inter untuk tipografi yang bersih -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -32,20 +31,15 @@
 </head>
 <body class="text-gray-800">
 
-    <!-- Kontainer Utama -->
     <div id="main-container" class="max-w-4xl mx-auto container-content shadow-2xl my-8 p-4 md:p-8 lg:p-12">
 
-        <!-- Halaman Edukasi (Akan disembunyikan saat beralih ke halaman form) -->
         <div id="edu-page">
-            <!-- Header -->
             <header class="text-center py-12 px-6 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-t-2xl">
                 <h1 class="text-3xl md:text-5xl font-bold mb-2 tracking-tight">Tekanan Sosial & Kesehatan Mental</h1>
                 <p class="text-lg md:text-xl font-light opacity-90">Memahami Dampak dan Menemukan Solusi</p>
             </header>
 
-            <!-- Bagian Konten Edukasi -->
             <main class="p-8 md:p-12">
-                <!-- Bagian 1: Memahami Tekanan Sosial -->
                 <section class="text-section mb-12">
                     <h2 class="text-2xl md:text-3xl font-semibold text-indigo-700 mb-4">Apa Itu Tekanan Sosial?</h2>
                     
@@ -57,7 +51,6 @@
                     </p>
                 </section>
 
-                <!-- Bagian 2: Bahaya Tekanan Sosial pada Mental -->
                 <section class="text-section mb-12">
                     <h2 class="text-2xl md:text-3xl font-semibold text-indigo-700 mb-4">Dampak Negatif pada Mental & Psikologi</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -88,7 +81,6 @@
                     </div>
                 </section>
 
-                <!-- Bagian 3: Solusi Rent A Family -->
                 <section class="text-section mb-12">
                     <h2 class="text-2xl md:text-3xl font-semibold text-indigo-700 mb-4">"Rent A Family": Solusi Profesional</h2>
                     <p>
@@ -105,15 +97,12 @@
                 </section>
             </main>
 
-            <!-- Footer -->
             <footer class="text-center py-6 px-4 text-gray-500 text-sm">
-                <p>&copy; 2024 Rent A Family. Semua Hak Cipta Dilindungi.</p>
+                <p>&copy; 2025 Rent A Family. Semua Hak Cipta Dilindungi.</p>
             </footer>
         </div>
 
-        <!-- Halaman Layanan/Formulir Pemesanan (Awalnya tersembunyi) -->
         <div id="service-page" class="hidden">
-            <!-- Konten Layanan dari prototipe sebelumnya -->
             <header class="text-center mb-10">
                 <h1 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-2">Layanan Rent A Family</h1>
                 <p class="text-gray-500 text-lg">Pesan kehadiran keluarga sementara Anda untuk momen spesial.</p>
@@ -129,6 +118,47 @@
                 </p>
             </section>
 
+            <section class="mb-10 p-6 bg-gray-50 rounded-lg border border-gray-200">
+                <h2 class="text-2xl font-bold text-gray-700 mb-4">Katalog Layanan</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">1. Model Berbasis Biaya Layanan (Fee-Based)</h3>
+                        <p class="text-sm text-gray-500 italic">Harga dapat disesuaikan dengan kebutuhan.</p>
+                        <ul class="list-disc list-inside ml-4 mt-2 text-gray-600 space-y-2">
+                            
+                                <p class="font-medium">Paket Berbasis Waktu & Peran:</p>
+                                <ul class="list-disc list-inside ml-6 text-sm">
+                                    <li>Peran Saudara Kandung: <span class="font-semibold">Rp 150.000</span> per jam (minimal 2 jam). Penambahan jam: <span class="font-semibold">Rp 80.000</span>/jam.</li>
+                                    <li>Peran Orang Tua: <span class="font-semibold">Rp 200.000</span> per jam (minimal 2 jam). Penambahan jam: <span class="font-semibold">Rp 100.000</span>/jam.</li>
+                                    <li>Paket Keluarga Lengkap (Ayah, Ibu, 1 Saudara): <span class="font-semibold">Rp 800.000</span> per jam (minimal 2 jam).</li>
+                                </ul>
+                            
+                            
+                                <p class="font-medium">Paket Khusus Acara:</p>
+                                <ul class="list-disc list-inside ml-6 text-sm">
+                                    <li>Paket Pernikahan (4 jam): <span class="font-semibold">Rp 1.000.000</span> (Paket Ayah-Ibu) atau <span class="font-semibold">Rp 2.000.000</span> (Paket Keluarga Lengkap).</li>
+                                    <li>Paket Liburan/Lebaran (8 jam): <span class="font-semibold">Rp 2.200.000</span> (Paket Orang Tua).</li>
+                                </ul>
+                            
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">2. Model Penjualan Silang (Layanan Tambahan)</h3>
+                        <ul class="list-disc list-inside ml-4 mt-2 text-gray-600 space-y-2">
+                            <li>Konseling Emosional Tambahan (oleh konselor): <span class="font-semibold">Rp 150.000</span> per sesi (60 menit).</li>
+                            <li>Jasa Fotografi atau Dokumentasi: <span class="font-semibold">Rp 800.000</span> (Paket foto profesional 2 jam).</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800">3. Model Berbasis Kemitraan</h3>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Kami juga berkolaborasi dengan mitra eksternal seperti *wedding planner* dan platform kesehatan mental untuk memperluas jangkauan dan menyediakan layanan terintegrasi.
+                        </p>
+                    </div>
+                </div>
+            </section>
             <section>
                 <h2 class="text-2xl font-bold text-gray-700 mb-4">Pesan Layanan Anda</h2>
                 <form id="orderForm" class="space-y-6">
